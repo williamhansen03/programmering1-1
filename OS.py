@@ -1,6 +1,18 @@
 print("Vi vill ha en ny OS gren!")
 print("Svara Ja eller Nej på följande frågor:")
 
+
+sport = input("Är det en sport?")
+
+if sport == "ja":
+    sport = input("Är det en lagsport?")
+    if sport == "nej":
+        sport = input("Är det en bollsport?")
+        if sport == "ja":
+            print("Synd, alla är upptagna!")
+else:
+    print("Glöm det!")
+
 sport = input("Utövas det inomhus? \n")
 
 
